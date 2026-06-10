@@ -220,8 +220,6 @@ MIT. See [LICENSE](LICENSE) for the full text.
 - Word list: [dwyl/english-words](https://github.com/dwyl/english-words) (Unlicense)
 
 # UPDATE DEVELOPED
-# OCR SCAN
-
 > Pengembangan aplikasi OCR berbasis browser dari project **Macula** (github.com/xirf/macula). Project asli sudah mendukung scan gambar dan deteksi kesalahan teks via WebAssembly. Dikembangkan lebih lanjut dengan penambahan fitur scan PDF, pilihan bahasa OCR, crop area, zoom, rotasi, OCR Enhancement, pengelolaan teks, dan download file — semua berjalan di browser tanpa server.
 >
 > 🌐 **Live Demo:** [ocrscanteks.netlify.app](https://ocrscanteks.netlify.app)
