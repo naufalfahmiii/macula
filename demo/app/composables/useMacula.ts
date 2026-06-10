@@ -121,6 +121,12 @@ export function useMacula() {
             const outPtr = wasmExports.ocr_output_ptr()
             const outLen = wasmExports.ocr_output_len()
             const json = ptrLenToString(outPtr, outLen)
+            if (!json || json.trim() === '') {
+            results.value = []
+            tokenCount.value = 0
+            processError.value = 'Tidak ada output dari WASM.'
+            return
+            }
             const rows: DetectionRow[] = JSON.parse(json)
 
             results.value = rows

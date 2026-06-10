@@ -40,7 +40,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Macula — OCR Error Detector',
+      title: 'SCAN TEKS',
       meta: [
         { name: 'description', content: 'Client-side OCR error detection powered by WebAssembly' },
       ],
